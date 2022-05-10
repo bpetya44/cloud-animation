@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sky{
+    overflow-x: hidden;
+    position: relative;
+    background-image: linear-gradient(#f3badb, #f6d19c);
+     width: 100%;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+
+}
+
+.sky img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+#cloud-one{
+    width: 20%;
+    bottom: 40%;
+    left: 75%;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+
+}
+
+#cloud-two{
+    width: 25%;
+    bottom: 80%;
+    left: 70%;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+
+}
+
+#cloud-three{
+    width: 30%;
+    bottom: 60%;
+    left: 0%;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+
+}
+#cloud-four{
+    width: 24%;
+    bottom: 70%;
+    left: 20%;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+
+}
+
+#cloud-five{
+    width: 23%;
+    bottom: 60%;
+    left: 60%;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+
+}
+
+#js{
+    width: 5%;
+    bottom: 10%;
+    left: 20%;
+    filter: drop-shadow(0 1mm 3mm rgb(62, 40, 69));
+
+}
+
+#react{
+    width: 5%;
+    bottom: 10%;
+    left: 26%;
+    filter: drop-shadow(0 1mm 3mm rgb(62, 40, 69));
+
+}
+
+#gql{
+    width: 5%;
+    bottom: 10%;
+    left: 32%;
+    filter: drop-shadow(0 1mm 3mm rgb(62, 40, 69));
+}
+
+#air-balloon{
+    width: 13%;
+    /* bottom: 10%; */
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+    
+}
+
+.about-me{
+    height:600px;
+    background-color: #69d31d;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    filter: drop-shadow(0 1.5mm 1mm rgba(62, 40, 69, 0.644));
+    font-size: 150%;
+}
